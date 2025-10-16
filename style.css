@@ -1,0 +1,109 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFD97D; /* butter sarısı */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    color: #1D2D50;
+}
+
+/* CV Box */
+.cv-box {
+    background-color: rgba(29, 45, 80, 0.95); /* lacivert */
+    width: 85%;
+    max-width: 700px;
+    padding: 50px 40px;
+    border-radius: 25px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.25);
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* Headings */
+.cv-box h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.cv-box h2 {
+    font-weight: 400;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    opacity: 0.8;
+}
+
+/* Sections */
+.section {
+    background-color: #1D2D50;
+    padding: 25px 30px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    transition: transform 0.3s ease;
+}
+
+.section:hover {
+    transform: translateY(-5px);
+}
+
+.section h3 {
+    color: #FFD97D;
+    margin-bottom: 12px;
+}
+
+.section p, .section li {
+    color: #ffffff;
+    line-height: 1.6;
+    font-size: 1em;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left;
+}
+
+/* Contact Form */
+form input, form textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+form button {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 12px;
+    background-color: #FFD97D;
+    color: #1D2D50;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+form button:hover {
+    background-color: #FFE49C;
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1D2D50;
+    font-weight: 600;
+}
